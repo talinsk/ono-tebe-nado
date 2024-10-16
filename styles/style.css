@@ -85,7 +85,7 @@
   font-weight: 700;
   position: relative;
   padding: 165px 50px 0 50px;
-  letter-spacing: .3em;
+  /*letter-spacing: .3em;*/
   text-transform: uppercase;
 }
 
@@ -98,7 +98,6 @@
   display: block;
   line-height: 1.32;
   text-align: center;
-  padding-right: 30px;
 }
 
 .aligned-text-right {
@@ -108,7 +107,19 @@
 }
 
 .letter-spacing-extended {
-  padding-right: 27px;
+  letter-spacing: .32em;
+}
+
+.letter-spacing-right {
+  letter-spacing: .62em;
+}
+
+.letter-spacing-extended-bottom-left {
+  letter-spacing: .57em;
+}
+
+.letter-spacing-extended-bottom-middle{
+  letter-spacing: .31em;
 }
 
 .letter-spacing-clear {
